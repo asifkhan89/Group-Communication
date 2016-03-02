@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+
+<taglib>
+<tlibversion>1.1</tlibversion>
+<jspversion>1.1</jspversion>
+<shortname>Ajax upload taglib</shortname>
+<uri>http://www.servletsuite.com/servlets/ajaxuploadtag</uri>
+<info>Ajax upload taglib</info>
+
+<tag>
+<name>AjaxUpload</name>
+<tagclass>com.cj.ajax.AjaxUploadTag</tagclass>
+<bodycontent>JSP</bodycontent>
+<info>implements ajax uploading</info>
+
+<attribute>
+<name>name</name>
+<required>false</required>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+
+<attribute>
+<name>action</name>
+<required>false</required>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+
+<attribute>
+<name>onSubmit</name>
+<required>false</required>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+
+<attribute>
+<name>beforeAction</name>
+<required>false</required>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+
+<attribute>
+<name>afterAction</name>
+<required>false</required>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+
+
+</tag>
+
+</taglib>

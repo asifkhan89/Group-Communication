@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://c101.cloudzones.org/FileTransfer?wsdl" uri="wsdl/c101.cloudzones.org/FileTransfer.wsdl"/>
+    <system systemId="http://c101.cloudzones.org:80/FileTransfer?xsd=1" uri="wsdl/c101.cloudzones.org_80/FileTransfer.xsd_1.xsd"/>
+    <system systemId="http://cloudzones.org:8888/cloudstoragekeyprivilege/SCSP?wsdl" uri="wsdl/localhost_8084/cloudstoragekeyprivilege/SCSP.wsdl"/>
+    <system systemId="http://cloudzones.org:8888/cloudstoragekeyprivilege/SCSP?xsd=1" uri="wsdl/localhost_8084/cloudstoragekeyprivilege/SCSP.xsd_1.xsd"/>
+    <system systemId="http://c102.cloudzones.org/SCS?wsdl" uri="wsdl/c102.cloudzones.org/SCS.wsdl"/>
+    <system systemId="http://c102.cloudzones.org:80/SCS?xsd=1" uri="wsdl/c102.cloudzones.org_80/SCS.xsd_1.xsd"/>
+    <system systemId="http://c101.cloudzones.org/FileTransfer?xsd=1" uri="wsdl/localhost_8084/cloudstorageserver/FileTransfer.xsd_1.xsd"/>
+    <system systemId="http://c102.cloudzones.org/SCS?xsd=1" uri="wsdl/localhost_8084/cloudstoragescsp/SCS.xsd_1.xsd"/>
+</catalog>
